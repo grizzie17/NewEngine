@@ -1,12 +1,34 @@
+<?php
+define( "NL", "\n" );
+
+$hello = "Hello World!";
+
+function tagWrite( $tag, $string )
+{
+	echo "<" . $tag . ">" . $string . "</" . $tag . ">" . NL;
+}
+
+function write_paragraph($string)
+{
+	tagWrite( "p", $string );
+}
+
+
+?>
 <html>
-<head></head>
+<head>
+<?php
+tagWrite( "title", $hello );
+?>
+</head>
 <body>
 <?php
-echo("<p>Hello World!</p>");
 
-if ( false )
+write_paragraph( $hello );
+
+if ( true )
 {
-	echo( "<p>Bob</p>");
+	write_paragraph( "Bob" );
 }
 ?>
 </body>

@@ -5,6 +5,8 @@
 		}
 	],
 	"settings": {
-		"php.validate.run": "onType"
+		"php.validate.executablePath": "C:\\Program Files\\PHP\\v7.2\\php.exe",
+		"php.validate.run": "onType",
+		"php.validate.enable": true
 	}
 }
