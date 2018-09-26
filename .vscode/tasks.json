@@ -5,9 +5,12 @@
 	"tasks": 
 	[
 		{
-			"label": "php",
+			"label": "newengine:8080",
 			"type": "shell",
-			"command": "php -S localhost:9000",
+			"command": "explorer",
+			"args": [
+				"http://localhost:8080/${fileBasename}"
+			],
 			"problemMatcher": []
 		}
 	]
