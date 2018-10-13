@@ -1,0 +1,6 @@
+If you can dream it, 
+you can do it.
+
+^{{picture WaltDisney.jpg}}
+{{i:-- Walt Disney}}
+{{small:(1901-1966)}}

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<reminders 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="remind.xsd">
+	<event id="e20051117164518"><date type="monthly" monthly="wday">1 1 3 3</date><category>marker</category><style>place_marker</style><subject><![CDATA[Birthday Dinner]]></subject><content><![CDATA[Marker]]></content></event><event id="e20051117164610"><date type="monthly" monthly="wday" offset="# -3">1 1 -1 5</date><category>marker</category><style>place_marker</style><subject><![CDATA[Staff / Ride Meeting]]></subject><content><![CDATA[Marker]]></content></event></reminders>
